@@ -4,10 +4,13 @@ void setup()
 }
 void draw()
 {
-fill(200,0,0);
-ellipse(250,250,300,200); //main body
+fill(0,255,0);
+ellipse(250,250,300,200);
+fill(255,255,255);
+ellipse(180,180,70,70); 
+ellipse(320,180,70,70); 
 fill(0,0,0);
-ellipse(180,330,70,70); //left wheel
-ellipse(320,330,70,70); //right wheel
-ellipse(250,220,200,60); //window
+ellipse(250,300,200,60);
+ellipse(180,180,35,35); 
+ellipse(320,180,35,35);
 }
